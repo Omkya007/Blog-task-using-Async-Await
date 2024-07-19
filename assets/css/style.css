@@ -1,0 +1,33 @@
+*{
+    margin:0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100vh;
+    background: linear-gradient(rgba(253, 13, 13, 0.8),rgba(248, 246, 246, 0.8));
+}
+.card{
+    background: linear-gradient(rgba(13, 253, 125, 0.926),rgba(196, 71, 71, 0.8));
+}
+.msform #but{
+    background: rgb(60, 128, 132);
+}
+.col-md-4 .card-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.col-md-4 .card-footer button{
+    background-color:rgb(214, 35, 62);
+    border: none;
+    box-shadow: 1px salmon;
+    
+}
+
+.col-md-4 .card-footer button:active,
+.col-md-4 .card-footer button:hover{
+                        background-color: tomato;
+                       }
+
